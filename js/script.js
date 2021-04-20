@@ -22,7 +22,19 @@ $(document).ready(function(){
  
 
   function previousImage(){
-    console.log("previous");
+    var active_img = $(".photos img.active");
+    var acctive_icon = $("nav i.active") ;
+
+    active_img.removeClass("active");
+    active_img.prev(".photos img").addClass("active");
+    
+    acctive_icon.removeClass("active");
+    acctive_icon.prev("nav i").addClass("active");
+
+    if(active_img.prev(".photos img").length === 0){
+      $(".photos img").last().addClass("active");
+      $("nav i").last().addClass("active");
+    }
   }
 
 });
