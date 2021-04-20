@@ -18,7 +18,8 @@ main {
 
 .title-carousel {
   font-size: 40px;
-  text-align: center;
+  text-align: center;/* COLOR */
+  color: #008FEA;
 }
 
 .carousel {
@@ -40,32 +41,38 @@ main {
   transform: translateY(-50%);
   font-size: 50px;
 }
+
 .arrow-left{
 left: -30px;
 }
+
 .arrow-right{
 right: 0;
 }
 
 /* button-photo */
-.button-photo {
+nav {
   display: flex;
   justify-content: center;
 }
 
-.box {  
-  height: 500px;
-  width: 500px;
+nav > i {
+  margin: 10px;
+  color: #fff;
+  border: solid 1px #008FEA;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
+/* js classes */
 
-
-/* COLOR */
-
-.blue {
+nav > i.active {
+  border: none;
   color: #008FEA;
+  font-size: 23px;
 }
 
-.bg-blue {
-  background-color: #008FEA;
+.phtos > img.active {
+  display: inline-block;
+  
 }
