@@ -33,6 +33,7 @@ main {
 
 .photos img {
   width: 700px;
+  height: 400px;
   margin-top: 20px;
   display: none;
 }
@@ -49,7 +50,7 @@ left: -30px;
 }
 
 .arrow-right{
-right: 0;
+/* right: 0; */
 }
 
 /* button-photo */
