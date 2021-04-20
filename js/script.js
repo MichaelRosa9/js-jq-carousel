@@ -3,7 +3,6 @@ $(document).ready(function(){
   $(".carousel .arrow-left").click(previousImage);
   $(".carousel .arrow-right").click(nextImage);
 
-
   function nextImage(){
     var active_img = $(".photos img.active");
     var acctive_icon = $("nav i.active") ;
