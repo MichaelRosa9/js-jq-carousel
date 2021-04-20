@@ -26,13 +26,15 @@ main {
   position: relative;  
 }
 
+/* photos img */
 .photos{/* cambio il display cosi da far stare le frecce accanto alle foto */
   display: inline-block;
-  
 }
+
 .photos img {
   width: 700px;
   margin-top: 20px;
+  display: none;
 }
 /* arrow */
 .arrow {
@@ -72,7 +74,6 @@ nav > i.active {
   font-size: 23px;
 }
 
-.phtos > img.active {
-  display: inline-block;
-  
+.photos > img.active {
+  display: inline-block;  
 }
